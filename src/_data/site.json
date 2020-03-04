@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://hylia.website",
-  "authorEmail": "me@andy-bell.design",
-  "authorHandle": "@hankchizljaw",
-  "authorName": "Andy Bell",
+  "name": "咖啡能量精神家园",
+  "shortDesc": "我突然有种很不好的预感。那是她在打某种如意算盘时的笑容。",
+  "url": "https://nullizer.github.io",
+  "authorEmail": "nullizer@gmail.com",
+  "authorHandle": "@nullizer",
+  "authorName": "Nullizer",
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 5,
-  "paymentPointer": "$coil.xrptipbot.com/c1f8f05d-8d8c-4f37-b1ad-25677ae129da",
+  "paymentPointer": "",
   "faviconPath": "/images/favicon.png"
 }

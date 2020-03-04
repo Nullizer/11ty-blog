@@ -1,14 +1,10 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
-postsHeading: Latest posts
-archiveButtonText: See all posts
+title: 小屋
+postsHeading: 最新文章
+archiveButtonText: 全部文章
 socialImage: ''
 ---
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Forestry
-CMS](https://forestry.io/) pre-configured, so that you can one-click install a
-progressive, accessible blog in minutes. It also gives you a well organised
-starting point to extend yourself.
-
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/dirtyf/hylia)
+本站基于 [Eleventy](https://11ty.io)，并采用 [Forestry
+CMS](https://forestry.io/) 技术。
