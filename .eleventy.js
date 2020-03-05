@@ -19,6 +19,7 @@ module.exports = function(config) {
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter('toLocaleDateString', date => (new Date(date)).toLocaleDateString())
 
   // Layout aliases
   config.addLayoutAlias('home', 'layouts/home.njk');
@@ -54,7 +55,7 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
-  
+
   /* Forestry instant previews */
   if( process.env.ELEVENTY_ENV == "staging" ) {
     eleventyConfig.setBrowserSyncConfig({
@@ -62,7 +63,7 @@ module.exports = function(config) {
     });
   }
 
-  // 404 
+  // 404
   config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
