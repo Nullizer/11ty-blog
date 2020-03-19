@@ -29,7 +29,7 @@
     "rollup-plugin-node-resolve": "^5.2.0"
   },
   "scripts": {
-    "test": "ls -lh dist/index.html && ls -lh dist/404.html",
+    "test": "npx rimraf dist && npm run production && ls -lh dist/index.html && ls -lh dist/404.html",
     "sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
     "sass:process": "npm run sass:tokens && sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
     "cms:precompile": "make-dir dist/admin && nunjucks-precompile src/_includes > dist/admin/templates.js -i \"\\.(njk|css|svg)$\"",
