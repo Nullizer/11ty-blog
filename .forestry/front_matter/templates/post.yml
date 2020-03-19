@@ -15,3 +15,7 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: draft
+  type: boolean
+  label: draft
+  default: true
